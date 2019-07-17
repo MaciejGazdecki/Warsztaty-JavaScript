@@ -1,0 +1,8 @@
+.done {
+    color: red;
+}
+#taskList {
+    list-style-type: decimal;
+    display: flex;
+    flex-direction: column-reverse;
+}
