@@ -10,6 +10,6 @@ document.addEventListener('DOMContentLoaded', function () {
             if (e.target.firstElementChild !== null) {
                 e.target.firstElementChild.style.display = 'none';
             }
-        })
-    })
+        });
+    });
 });

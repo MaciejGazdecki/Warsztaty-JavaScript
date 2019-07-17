@@ -22,5 +22,5 @@ document.addEventListener('DOMContentLoaded', function(){
             imagesCounter--;
         }
         images[imagesCounter].classList.toggle('visible');
-    })
+    });
 });

@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function(){
             } else {
                 image.classList.add('invisible')
             }
-        })
+        });
     });
     hideButton.addEventListener('click', function () {
         const inputValue = tagInput.value;
@@ -21,11 +21,11 @@ document.addEventListener('DOMContentLoaded', function(){
         images.forEach(function (image) {
             if (inputValue.length > 0) {
                 if (image.dataset.tag.includes(inputValue)) {
-                    image.classList.add('invisible')
+                    image.classList.add('invisible');
                 } else {
                     image.classList.remove('invisible');
                 }
             }
-        })
-    })
+        });
+    });
 });

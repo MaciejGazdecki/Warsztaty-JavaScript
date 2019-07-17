@@ -13,6 +13,6 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         tooltip.addEventListener('mouseout', function (){
             tooltip.removeChild(spanTooltip);
-        })
-    })
+        });
+    });
 });
