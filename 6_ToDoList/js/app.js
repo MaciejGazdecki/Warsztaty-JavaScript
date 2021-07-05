@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function(){
             removeFinishedTasksButton.addEventListener('click', function () {
                 const finishedTasks = taskList.querySelectorAll('.done');
                 if(li.classList.contains('done')) {
-                    taskList.removeChild(...finishedTasks); // Spread operator dziala, mimo ze konsola wyrzuca blad
+                    taskList.removeChild(...finishedTasks); // Spread operator dziala, mimo ze konsola wyrzuca blad, prosba o komentarz
                 }
-            })
+            });
         }
-    })
+    });
 });
